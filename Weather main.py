@@ -148,7 +148,7 @@ class WeatherApp(QWidget):
         self.description_timezone.clear()
         self.description_label.clear()
 
-    # < Weathe Display >
+    # < Weather Display >
     def display_weather(self, data):
         self.tempetature_label.setStyleSheet("font-size: 75px;")
         temperature_D = data["main"]["temp"]    # = Accese the 'temp data'
